@@ -35,7 +35,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        return mContext.getResources().getString(TAB_TITLES[position]);
+        //return mContext.getResources().getString(TAB_TITLES[position]);
+        switch (position)
+        {
+            case 0:
+                return "¿Qué es?";
+            case 1:
+                return "¿Cómo funciona?";
+        }
+        return null;
     }
 
     @Override
