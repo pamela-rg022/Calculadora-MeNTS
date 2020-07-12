@@ -138,14 +138,18 @@
                 <RadioButton
                     android:id="@+id/radioButton12"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="0dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton18"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="1dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton44"
@@ -180,14 +184,18 @@
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="0dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="1dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
@@ -265,8 +273,10 @@
                 <RadioButton
                     android:id="@+id/radioButton25"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="1dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton26"
@@ -307,14 +317,18 @@
                 <RadioButton
                     android:id="@+id/radioButton30"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="1dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton31"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="0dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton32"
@@ -349,20 +363,26 @@
                 <RadioButton
                     android:id="@+id/radioButton35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="1dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton36"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="0dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton37"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:layout_height="1dp"
+                    android:text="-"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
 
                 <RadioButton
                     android:id="@+id/radioButton38"
