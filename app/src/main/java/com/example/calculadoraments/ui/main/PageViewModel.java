@@ -15,9 +15,17 @@ public class PageViewModel extends ViewModel {
             switch (input)
             {
                 case 1:
-                    return "MeNTS es una calculadora que permite a los profesionales médicos dar prioridad a aquellas intervenciones quirúrgicas que se vieron afectadas por la aparición del nuevo COVID-19. MeNtS apoya a la toma de decisiones basada en una calificación objetiva que permite decidir si realizar o no un procedimiento quirúrgico en tiempos de pandemia.";
+                    return "MeNTS es una calculadora que permite a los profesionales médicos dar prioridad a aquellas intervenciones quirúrgicas que se vieron afectadas por la aparición del nuevo COVID-19." +
+                            "\n" +
+                            "MeNtS apoya a la toma de decisiones basada en una calificación objetiva que permite decidir si realizar o no un procedimiento quirúrgico en tiempos de pandemia.";
                 case 2:
-                    return "Diseñada en una sencilla escala de 1 a 5 donde un valor mas alto corresponde a un peor resultado perioperatorio del paciente, un mayor riesgo de transmisión de COVID-19 al equipo de atención y/o un mayor uso de recursos hospitalarios durante la pandemia. La calculadora se basa en medidas objetivas y probabilidades clínicas percibidas que traducidas en la escala generada y acumulando los diferentes resultados se obtiene un puntaje acumulado MeNTS que permite apoyar la toma de decisiones.";
+                    return "Diseñada en una sencilla escala de 1 a 5 donde un valor más alto corresponde a un peor resultado perioperatorio del paciente, un mayor riesgo de transmisión de COVID-19 al equipo de atención y/o un mayor uso de recursos hospitalarios durante la pandemia. " +
+                            "\n" +
+                            "La escala se aplica a distintos aspectos dentro de tres factores generales: procedimiento, paciente y enfermedad." +
+                            "\n"+
+                            "La calculadora se basa en medidas objetivas y probabilidades clínicas percibidas que traducidas en la escala generada y acumulando los diferentes resultados se obtiene un puntaje acumulado MeNTS que permite apoyar la toma de decisiones." +
+                            "\n" +
+                            "AÑADIR QUÉ INDICA RESULTADOS FINALES RANGOS";
             }
             return null;
             //return "Hello world from section: " + input;
