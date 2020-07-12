@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Second2Fragment">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="467dp"
+        android:layout_height="986dp"
+        android:src="@drawable/fondo3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textview_second"
         android:layout_width="wrap_content"
