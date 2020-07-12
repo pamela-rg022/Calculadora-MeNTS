@@ -77,7 +77,7 @@
                     android:id="@+id/radioButton32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Disponible, <40% tan efectivo como la cirugía" />
+                    android:text="@string/dis_menor_40" />
 
                 <RadioButton
                     android:id="@+id/radioButton33"

@@ -106,4 +106,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_encuesta2">encuesta2</string>
+    <string name="menor_20"><![CDATA[<20]]></string>
+    <string name="mayor_65"><![CDATA[>65]]></string>
+    <string name="dis_menor_40"><![CDATA[Disponible, <40% tan efectivo como la cirugía]]></string>
+    <string name="menor_30"><![CDATA[<30]]></string>
+    <string name="menor_23_h"><![CDATA[<23 h]]></string>
+    <string name="menor_5"><![CDATA[<5]]></string>
+    <string name="menor_100"><![CDATA[<100]]></string>
+    <string name="menor_1"><![CDATA[<1]]></string>
 </resources>

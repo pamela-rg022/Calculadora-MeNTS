@@ -80,7 +80,7 @@
                     android:id="@+id/radioButton7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="<20" />
+                    android:text="@string/menor_20" />
 
                 <RadioButton
                     android:id="@+id/radioButton8"
@@ -104,7 +104,7 @@
                     android:id="@+id/radioButton11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">65" />
+                    android:text="@string/mayor_65" />
             </RadioGroup>
 
             <TextView
