@@ -1,5 +1,6 @@
 package com.example.calculadoraments;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.calculadoraments.ui.main.PlaceholderFragment;
@@ -20,6 +21,9 @@ import com.example.calculadoraments.ui.main.SectionsPagerAdapter;
 
 public class infotabs extends AppCompatActivity {
 
+    public FloatingActionButton botoninicio;
+    public FloatingActionButton botoncalculadora;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,9 +34,26 @@ public class infotabs extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
         //FloatingActionButton fab = findViewById(R.id.fab);
-        FloatingActionButton inicio = findViewById(R.id.floatingActioninicio);
 
-        //inicio.setOnClickListener(new View.OnClickListener() {
+        botoninicio = findViewById(R.id.floatingActionButton);
+        botoninicio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(infotabs.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        botoncalculadora = findViewById(R.id.floatingActionButton2);
+        botoncalculadora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(infotabs.this, encuesta1.class);
+                startActivity(intent);
+            }
+        });
+
           //  @Override
             //public void onClick(View view) {
               //  NavHostFragment.findNavController(PlaceholderFragment.this)

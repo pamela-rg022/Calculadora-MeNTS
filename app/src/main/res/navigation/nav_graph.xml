@@ -71,16 +71,4 @@
             android:id="@+id/action_First3Fragment_to_Second2Fragment"
             app:destination="@id/Second2Fragment" />
     </fragment>
-    <fragment
-        android:id="@+id/placeholderFragment"
-        android:name="com.example.calculadoraments.ui.main.PlaceholderFragment"
-        android:label="fragment_infotabs"
-        tools:layout="@layout/fragment_infotabs" >
-        <action
-            android:id="@+id/action_placeholderFragment_to_First2Fragment"
-            app:destination="@id/First2Fragment" />
-        <action
-            android:id="@+id/action_placeholderFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
 </navigation>

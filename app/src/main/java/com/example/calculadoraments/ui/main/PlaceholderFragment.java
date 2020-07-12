@@ -60,22 +60,21 @@ public class PlaceholderFragment extends Fragment {
         return root;
 
     }
-    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+  //  public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+    //    super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.floatingActioncalculadora).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(PlaceholderFragment.this)
-                        .navigate(R.id.action_placeholderFragment_to_First2Fragment);
-            }
-        });
-        view.findViewById(R.id.floatingActioninicio).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(PlaceholderFragment.this)
-                        .navigate(R.id.action_placeholderFragment_to_FirstFragment);
-            }
-        });
+        //view.findViewById(R.id.floatingActioncalculadora).setOnClickListener(new View.OnClickListener() {
+          //  @Override
+            //public void onClick(View view) {
+              //  NavHostFragment.findNavController(PlaceholderFragment.this)
+                //        .navigate(R.id.action_placeholderFragment_to_First2Fragment);
+   //         }
+     //   });
+       // view.findViewById(R.id.floatingActioninicio).setOnClickListener(new View.OnClickListener() {
+         //   @Override
+           // public void onClick(View view) {
+             //   NavHostFragment.findNavController(PlaceholderFragment.this)
+               //         .navigate(R.id.action_placeholderFragment_to_FirstFragment);
+     //       }
+       // });
     }
-}
