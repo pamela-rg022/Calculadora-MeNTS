@@ -30,5 +30,12 @@ public class Second2Fragment extends Fragment {
                         .navigate(R.id.action_Second2Fragment_to_First3Fragment);
             }
         });
+        view.findViewById(R.id.button_volverfacprocedi).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(Second2Fragment.this)
+                        .navigate(R.id.action_Second2Fragment_to_First2Fragment);
+            }
+        });
     }
 }

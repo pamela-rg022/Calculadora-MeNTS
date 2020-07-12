@@ -2,6 +2,7 @@ package com.example.calculadoraments;
 
 import android.os.Bundle;
 
+import com.example.calculadoraments.ui.main.PlaceholderFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
@@ -28,17 +29,26 @@ public class infotabs extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
+        //FloatingActionButton fab = findViewById(R.id.fab);
+        FloatingActionButton inicio = findViewById(R.id.floatingActioninicio);
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //inicio.setOnClickListener(new View.OnClickListener() {
+          //  @Override
+            //public void onClick(View view) {
+              //  NavHostFragment.findNavController(PlaceholderFragment.this)
+                //        .navigate(R.id.action_placeholderFragment_to_First2Fragment);
+            //}
+//        });
+
+        //fab.setOnClickListener(new View.OnClickListener() {
+         //   @Override
+           // public void onClick(View view) {
                 //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                   //      .setAction("Action", null).show();
                 //NavHostFragment.findNavController(infotabs.this)
                   //      .navigate(R.id.action_placeholderFragment_to_SecondFragment);
             }
-        });
-    }
+      //  });
+ //   }
 
 }
