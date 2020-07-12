@@ -49,7 +49,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1) Tiempo del procedimiento (min)" />
+                android:text="1) Tiempo del procedimiento (min)"/>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -306,7 +306,7 @@
                     android:id="@+id/radioButton34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ninguna de las opciones siguientes" />
+                    android:text="Ninguna de las siguientes opciones " />
 
                 <RadioButton
                     android:id="@+id/radioButton35"
