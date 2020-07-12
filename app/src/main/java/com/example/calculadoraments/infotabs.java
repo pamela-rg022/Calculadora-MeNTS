@@ -44,15 +44,15 @@ public class infotabs extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        botoncalculadora = findViewById(R.id.floatingActionButton2);
-        botoncalculadora.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(infotabs.this, encuesta1.class);
-                startActivity(intent);
-            }
-        });
+//        botoncalculadora = findViewById(R.id.floatingActionButton2);
+  //      botoncalculadora.setOnClickListener(new View.OnClickListener() {
+    //        @Override
+      //      public void onClick(View view)
+        //    {
+          //      Intent intent = new Intent(infotabs.this, encuesta1.class);
+            //    startActivity(intent);
+  //          }
+    //    });
 
           //  @Override
             //public void onClick(View view) {
