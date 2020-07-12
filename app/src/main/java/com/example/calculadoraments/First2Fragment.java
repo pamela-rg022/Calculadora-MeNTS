@@ -66,11 +66,11 @@ public class First2Fragment extends Fragment {
                        .navigate(R.id.action_First2Fragment_to_Second2Fragment);
             }
         });
-        view.findViewById(R.id.button_volverinicio).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.button_volverinstruc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(First2Fragment.this)
-                        .navigate(R.id.action_First2Fragment_to_FirstFragment);
+                        .navigate(R.id.action_First2Fragment_to_instrucciones);
             }
         });
     }

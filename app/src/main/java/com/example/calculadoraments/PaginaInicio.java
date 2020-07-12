@@ -35,7 +35,7 @@ public class PaginaInicio extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(PaginaInicio.this)
-                        .navigate(R.id.action_FirstFragment_to_First2Fragment);
+                        .navigate(R.id.action_FirstFragment_to_instrucciones);
             }
         });
 

@@ -16,8 +16,8 @@
             app:destination="@id/infotabs"
             app:launchSingleTop="false" />
         <action
-            android:id="@+id/action_FirstFragment_to_First2Fragment"
-            app:destination="@id/First2Fragment" />
+            android:id="@+id/action_FirstFragment_to_instrucciones"
+            app:destination="@id/instrucciones" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -44,8 +44,8 @@
             android:id="@+id/action_First2Fragment_to_Second2Fragment"
             app:destination="@id/Second2Fragment" />
         <action
-            android:id="@+id/action_First2Fragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_First2Fragment_to_instrucciones"
+            app:destination="@id/instrucciones" />
     </fragment>
     <fragment
         android:id="@+id/Second2Fragment"
@@ -70,5 +70,17 @@
         <action
             android:id="@+id/action_First3Fragment_to_Second2Fragment"
             app:destination="@id/Second2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instrucciones"
+        android:name="com.example.calculadoraments.instrucciones"
+        android:label="fragment_instrucciones"
+        tools:layout="@layout/fragment_instrucciones" >
+        <action
+            android:id="@+id/action_instrucciones_to_First2Fragment"
+            app:destination="@id/First2Fragment" />
+        <action
+            android:id="@+id/action_instrucciones_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
