@@ -2,7 +2,9 @@ package com.example.calculadoraments;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,5 +62,23 @@ public class instrucciones extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_instrucciones, container, false);
+    }
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        view.findViewById(R.id.floatingActionButtonvolverinicio).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(instrucciones.this)
+                        .navigate(R.id.action_instrucciones_to_FirstFragment);
+            }
+        });
+        view.findViewById(R.id.floatingActionButtonencuesta).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(instrucciones.this)
+                        .navigate(R.id.action_instrucciones_to_First2Fragment);
+            }
+        });
     }
 }
