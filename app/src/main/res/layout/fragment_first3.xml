@@ -10,11 +10,14 @@
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
+        android:fontFamily="sans-serif-black"
+        android:text="Factores_de_la_enfermedad"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <Button
         android:id="@+id/button_resultfinal"
@@ -39,4 +42,271 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.953" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="607dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Efectividad de la opción de tratamiento no quirúrgico"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ninguna disponible" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Disponible, <40% tan efectivo como la cirugía" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Disponible, 40% a 60% tan efectiva como la cirugía" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Disponible, 61% a 95% tan efectiva como la cirugía" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Disponible, igualmente efectiva" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Opción de tratamiento no quirúrgico recurso/riesgo de exposición" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significativamente peor/no aplicable" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Algo peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Equivalente" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alego mejor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton310"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significativamente mejor" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3) Impacto del retraso de 2 semanas en el resultado de la enfermedad" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton311"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significativamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton312"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton313"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moderadamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton314"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un poco peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton315"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No empeora" />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4) Impacto del retraso de 2 semanas en dificultad/riesgo quirúrgico" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton316"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significativamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton317"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton318"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moderadamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton319"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un poco peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton320"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No empeora" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5) Impacto del retraso de 6 semanas en el resultado de la enfermedad" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton321"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significativamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton322"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton323"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moderadamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton324"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un poco peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton325"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No empeora" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6) Impacto del retraso de 6 semanas en dificultad/riesgo quirúrgico" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton326"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significativamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton327"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton328"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moderadamente peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton329"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un poco peor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton330"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No empeora" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
