@@ -7,12 +7,14 @@
     tools:context=".SecondFragment">
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="614dp"
-        android:layout_height="960dp"
-        android:src="@drawable/fondo2"
-        tools:layout_editor_absoluteX="-102dp"
-        tools:layout_editor_absoluteY="-115dp" />
+        android:id="@+id/imageView8"
+        android:layout_width="446dp"
+        android:layout_height="786dp"
+        android:src="@drawable/fondo2dimen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textview_second"
