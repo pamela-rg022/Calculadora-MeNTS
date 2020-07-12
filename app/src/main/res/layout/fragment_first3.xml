@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="430dp"
-        android:layout_height="812dp"
-        android:src="@drawable/fondo2dimen"
+        android:layout_width="467dp"
+        android:layout_height="986dp"
+        android:src="@drawable/fondo3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Factores de la enfermedad"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"

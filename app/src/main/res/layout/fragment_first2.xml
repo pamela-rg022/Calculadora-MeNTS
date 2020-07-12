@@ -7,10 +7,10 @@
     tools:context=".First2Fragment">
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="478dp"
-        android:layout_height="818dp"
-        android:src="@drawable/fondo2dimen"
+        android:id="@+id/imageView5"
+        android:layout_width="467dp"
+        android:layout_height="986dp"
+        android:src="@drawable/fondo3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Factores del procedimiento"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"

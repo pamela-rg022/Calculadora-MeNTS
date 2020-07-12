@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Second2Fragment">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="452dp"
-        android:layout_height="788dp"
-        android:src="@drawable/fondo2dimen"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textview_second"
         android:layout_width="wrap_content"
@@ -31,6 +21,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Factores del paciente"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"
