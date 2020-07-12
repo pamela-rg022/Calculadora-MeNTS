@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Factores_del_procedimiento"
+        android:text="Factores del procedimiento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"
@@ -44,8 +44,8 @@
         app:layout_constraintVertical_bias="0.942" />
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="607dp"
+        android:layout_width="398dp"
+        android:layout_height="535dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,17 +55,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1) Tiempo del procedimiento (min)"/>
+                android:text="1) Tiempo del procedimiento (min)" />
 
             <RadioGroup
+                android:id="@+id/grupo11"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton7"
@@ -105,8 +106,9 @@
                 android:text="2) Tiempo de permanencia estimado" />
 
             <RadioGroup
+                android:id="@+id/grupo12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton"
@@ -146,8 +148,9 @@
                 android:text="3) Necesidad postoperatoria de UCI (%)" />
 
             <RadioGroup
+                android:id="@+id/grupo13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton13"
@@ -188,8 +191,9 @@
                 android:text="4) Pérdida de sangre anticipada (cc)" />
 
             <RadioGroup
+                android:id="@+id/grupo14"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton19"
@@ -229,8 +233,9 @@
                 android:text="5) Tamaño del equipo de cirugía (personas)" />
 
             <RadioGroup
+                android:id="@+id/grupo15"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton24"
@@ -270,8 +275,9 @@
                 android:text="6) Probabilidad de intubación (%)" />
 
             <RadioGroup
+                android:id="@+id/grupo16"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton29"
@@ -311,8 +317,9 @@
                 android:text="7) Localización del procedimiento" />
 
             <RadioGroup
+                android:id="@+id/grupo17"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <RadioButton
                     android:id="@+id/radioButton34"

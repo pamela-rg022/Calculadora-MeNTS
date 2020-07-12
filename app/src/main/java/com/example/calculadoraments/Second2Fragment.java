@@ -4,12 +4,25 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class Second2Fragment extends Fragment {
+
+    RadioGroup grupo21;
+    RadioGroup grupo22;
+    RadioGroup grupo23;
+    RadioGroup grupo24;
+    RadioGroup grupo25;
+    RadioGroup grupo26;
+    RadioGroup grupo27;
+    RadioGroup grupo28;
+
+    int sumaPaciente;
 
     @Override
     public View onCreateView(
@@ -23,9 +36,33 @@ public class Second2Fragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        grupo21 = view.findViewById(R.id.grupo21);
+        grupo22 = view.findViewById(R.id.grupo22);
+        grupo23 = view.findViewById(R.id.grupo23);
+        grupo24 = view.findViewById(R.id.grupo24);
+        grupo25 = view.findViewById(R.id.grupo25);
+        grupo26 = view.findViewById(R.id.grupo26);
+        grupo27 = view.findViewById(R.id.grupo27);
+        grupo28 = view.findViewById(R.id.grupo28);
+
         view.findViewById(R.id.button_facenfermedad).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                int selected_id_grupo21 = grupo21.indexOfChild(getView().findViewById(grupo21.getCheckedRadioButtonId()));
+                int selected_id_grupo22 = grupo22.indexOfChild(getView().findViewById(grupo22.getCheckedRadioButtonId()));
+                int selected_id_grupo23 = grupo23.indexOfChild(getView().findViewById(grupo23.getCheckedRadioButtonId()));
+                int selected_id_grupo24 = grupo24.indexOfChild(getView().findViewById(grupo24.getCheckedRadioButtonId()));
+                int selected_id_grupo25 = grupo25.indexOfChild(getView().findViewById(grupo25.getCheckedRadioButtonId()));
+                int selected_id_grupo26 = grupo26.indexOfChild(getView().findViewById(grupo26.getCheckedRadioButtonId()));
+                int selected_id_grupo27 = grupo27.indexOfChild(getView().findViewById(grupo27.getCheckedRadioButtonId()));
+                int selected_id_grupo28 = grupo28.indexOfChild(getView().findViewById(grupo28.getCheckedRadioButtonId()));
+
+                sumaPaciente = selected_id_grupo21 + selected_id_grupo22 + selected_id_grupo23 + selected_id_grupo24 + selected_id_grupo25 + selected_id_grupo26 + selected_id_grupo27 + selected_id_grupo28 + 8;
+
+                Toast.makeText(getContext(), "" + sumaPaciente, Toast.LENGTH_SHORT).show();
+
+
                 NavHostFragment.findNavController(Second2Fragment.this)
                         .navigate(R.id.action_Second2Fragment_to_First3Fragment);
             }
