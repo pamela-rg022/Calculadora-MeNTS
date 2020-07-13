@@ -59,7 +59,7 @@ public class First3Fragment extends Fragment {
                 sumaEnfermedad = selected_id_grupo21 + selected_id_grupo22 + selected_id_grupo23 + selected_id_grupo24 + selected_id_grupo25 + selected_id_grupo26 + 6;
                 sumaTotal = suma_previa_proce_paci + sumaEnfermedad;
 
-                Toast.makeText(getContext(), "" + sumaEnfermedad, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getContext(), "" + sumaEnfermedad, Toast.LENGTH_SHORT).show();
 
                 First3FragmentDirections.ActionFirst3FragmentToSecondFragment seguir_finalresult = First3FragmentDirections.actionFirst3FragmentToSecondFragment();
                 seguir_finalresult.setSumaFinalresult(sumaTotal);

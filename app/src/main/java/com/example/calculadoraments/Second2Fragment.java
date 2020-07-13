@@ -64,7 +64,7 @@ public class Second2Fragment extends Fragment {
                 sumaPaciente = selected_id_grupo21 + selected_id_grupo22 + selected_id_grupo23 + selected_id_grupo24 + selected_id_grupo25 + selected_id_grupo26 + selected_id_grupo27 + selected_id_grupo28 + 8;
                 sumaProcePaci = suma_previa_proce + sumaPaciente;
 
-                Toast.makeText(getContext(), "" + sumaPaciente, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getContext(), "" + sumaPaciente, Toast.LENGTH_SHORT).show();
 
 
                 Second2FragmentDirections.ActionSecond2FragmentToFirst3Fragment seguir_enfermedad = Second2FragmentDirections.actionSecond2FragmentToFirst3Fragment();

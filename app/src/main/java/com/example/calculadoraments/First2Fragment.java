@@ -59,7 +59,7 @@ public class First2Fragment extends Fragment {
 
                 sumaProcedimiento = selected_id_grupo11 + selected_id_grupo12 + selected_id_grupo13 + selected_id_grupo14 + selected_id_grupo15 + selected_id_grupo16 + selected_id_grupo17 + 7;
 
-                Toast.makeText(getContext(), "" + sumaProcedimiento, Toast.LENGTH_SHORT).show();
+           //     Toast.makeText(getContext(), "" + sumaProcedimiento, Toast.LENGTH_SHORT).show();
 
 
 //                NavHostFragment.findNavController(First2Fragment.this)
