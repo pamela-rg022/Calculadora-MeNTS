@@ -22,6 +22,7 @@ public class First3Fragment extends Fragment {
 
 
     int sumaEnfermedad;
+    int sumaTotal;
 
     @Override
     public View onCreateView(
@@ -52,13 +53,20 @@ public class First3Fragment extends Fragment {
                 int selected_id_grupo24 = grupo34.indexOfChild(getView().findViewById(grupo34.getCheckedRadioButtonId()));
                 int selected_id_grupo25 = grupo35.indexOfChild(getView().findViewById(grupo35.getCheckedRadioButtonId()));
                 int selected_id_grupo26 = grupo36.indexOfChild(getView().findViewById(grupo36.getCheckedRadioButtonId()));
+                //suma fragmento anterior
+                int suma_previa_proce_paci = First3FragmentArgs.fromBundle(getArguments()).getSumaProcePacient();
 
                 sumaEnfermedad = selected_id_grupo21 + selected_id_grupo22 + selected_id_grupo23 + selected_id_grupo24 + selected_id_grupo25 + selected_id_grupo26 + 6;
+                sumaTotal = suma_previa_proce_paci + sumaEnfermedad;
 
                 Toast.makeText(getContext(), "" + sumaEnfermedad, Toast.LENGTH_SHORT).show();
 
-                NavHostFragment.findNavController(First3Fragment.this)
-                        .navigate(R.id.action_First3Fragment_to_SecondFragment);
+                First3FragmentDirections.ActionFirst3FragmentToSecondFragment seguir_finalresult = First3FragmentDirections.actionFirst3FragmentToSecondFragment();
+                seguir_finalresult.setSumaFinalresult(sumaTotal);
+                NavHostFragment.findNavController(First3Fragment.this).navigate(seguir_finalresult);
+
+       //         NavHostFragment.findNavController(First3Fragment.this)
+         //               .navigate(R.id.action_First3Fragment_to_SecondFragment);
             }
         });
         view.findViewById(R.id.button_volverfacpaciente).setOnClickListener(new View.OnClickListener() {
