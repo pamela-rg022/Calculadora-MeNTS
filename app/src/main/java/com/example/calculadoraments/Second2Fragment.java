@@ -46,7 +46,7 @@ public class Second2Fragment extends Fragment {
         grupo27 = view.findViewById(R.id.grupo27);
         grupo28 = view.findViewById(R.id.grupo28);
 
-        view.findViewById(R.id.button_facenfermedad).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.irenfermedad).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -77,11 +77,11 @@ public class Second2Fragment extends Fragment {
 
             }
         });
-        view.findViewById(R.id.button_volverfacprocedi).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.volverinstrucdesdepaci).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Second2Fragment.this)
-                        .navigate(R.id.action_Second2Fragment_to_First2Fragment);
+                        .navigate(R.id.action_Second2Fragment_to_instrucciones);
             }
         });
     }

@@ -43,7 +43,7 @@ public class First3Fragment extends Fragment {
         grupo35 = view.findViewById(R.id.grupo35);
         grupo36 = view.findViewById(R.id.grupo36);
 
-        view.findViewById(R.id.button_resultfinal).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.irfinalcaldesdeenfer).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -69,11 +69,11 @@ public class First3Fragment extends Fragment {
          //               .navigate(R.id.action_First3Fragment_to_SecondFragment);
             }
         });
-        view.findViewById(R.id.button_volverfacpaciente).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.volverinstrucdesdeenfer).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(First3Fragment.this)
-                        .navigate(R.id.action_First3Fragment_to_Second2Fragment);
+                        .navigate(R.id.action_First3Fragment_to_instrucciones);
             }
         });
     }
