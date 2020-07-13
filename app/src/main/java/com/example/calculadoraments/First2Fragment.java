@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -45,7 +44,7 @@ public class First2Fragment extends Fragment {
 
 
 
-        view.findViewById(R.id.button_facpaciente).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.irpaciente).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 // Obtenemos el valor seleccionado por radio group
@@ -69,7 +68,7 @@ public class First2Fragment extends Fragment {
                 NavHostFragment.findNavController(First2Fragment.this).navigate(seguir_paciente);
             }
         });
-        view.findViewById(R.id.button_volverinstruc).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.volverinstruc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(First2Fragment.this)

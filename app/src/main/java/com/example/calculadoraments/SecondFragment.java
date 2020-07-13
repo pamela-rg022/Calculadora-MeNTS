@@ -28,7 +28,7 @@ public class SecondFragment extends Fragment {
         int suma_acum = SecondFragmentArgs.fromBundle(getArguments()).getSumaFinalresult();
         calculo_final.setText(Integer.toString(suma_acum));
 
-        view.findViewById(R.id.button_volverinstruc).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.button_volverfinalainicio).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(SecondFragment.this)
