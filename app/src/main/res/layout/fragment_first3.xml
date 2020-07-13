@@ -78,7 +78,7 @@
                     android:id="@+id/radioButton32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/dis_menor_40" />
+                    android:text="@string/Menor40disefectiva" />
 
                 <RadioButton
                     android:id="@+id/radioButton33"
@@ -103,7 +103,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2) Opción de tratamiento no quirúrgico recurso/riesgo de exposición" />
+                android:text="\n 2) Opción de tratamiento no quirúrgico recurso/riesgo de exposición" />
 
             <RadioGroup
                 android:id="@+id/grupo32"
@@ -146,7 +146,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3) Impacto del retraso de 2 semanas en el resultado de la enfermedad" />
+                android:text="\n 3) Impacto del retraso de 2 semanas en el resultado de la enfermedad" />
 
             <RadioGroup
                 android:id="@+id/grupo33"
@@ -189,7 +189,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4) Impacto del retraso de 2 semanas en dificultad/riesgo quirúrgico" />
+                android:text="\n 4) Impacto del retraso de 2 semanas en dificultad/riesgo quirúrgico" />
 
             <RadioGroup
                 android:id="@+id/grupo34"
@@ -231,7 +231,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="5) Impacto del retraso de 6 semanas en el resultado de la enfermedad" />
+                android:text="\n 5) Impacto del retraso de 6 semanas en el resultado de la enfermedad" />
 
             <RadioGroup
                 android:id="@+id/grupo35"
@@ -273,7 +273,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="6) Impacto del retraso de 6 semanas en dificultad/riesgo quirúrgico" />
+                android:text="\n 6) Impacto del retraso de 6 semanas en dificultad/riesgo quirúrgico" />
 
             <RadioGroup
                 android:id="@+id/grupo36"

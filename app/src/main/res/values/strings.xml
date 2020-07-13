@@ -114,4 +114,15 @@
     <string name="menor_5"><![CDATA[<5]]></string>
     <string name="menor_100"><![CDATA[<100]]></string>
     <string name="menor_1"><![CDATA[<1]]></string>
+    <string name="menor_a_30"><![CDATA[< 30]]></string>
+    <string name="menor_a_23h"><![CDATA[< 23h]]></string>
+    <string name="menor_a_5"><![CDATA[< 5]]></string>
+    <string name="menor_a_100"><![CDATA[< 100]]></string>
+    <string name="menor_a_1"><![CDATA[< 1]]></string>
+    <string name="MenorIgual30">≤ 30</string>
+    <string name="MenorIgual20">≤ 20</string>
+    <string name="MayorIgual181">≥ 181</string>
+    <string name="MenorIgual23h">≤ 23 h</string>
+    <string name="MayorIgual4días">≥ 4 días</string>
+    <string name="Menor40disefectiva"><![CDATA[Disponible, < 40% tan efectivo como la cirugía]]></string>
 </resources>

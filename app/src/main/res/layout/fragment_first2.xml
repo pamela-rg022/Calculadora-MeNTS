@@ -71,38 +71,38 @@
                     android:id="@+id/radioButton7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/menor_30" />
+                    android:text="@string/MenorIgual30" />
 
                 <RadioButton
                     android:id="@+id/radioButton8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="31-60" />
+                    android:text="31 - 60" />
 
                 <RadioButton
                     android:id="@+id/radioButton9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="61-120" />
+                    android:text="61 - 120" />
 
                 <RadioButton
                     android:id="@+id/radioButton10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="121-180" />
+                    android:text="121 - 180" />
 
                 <RadioButton
                     android:id="@+id/radioButton11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">180" />
+                    android:text="@string/MayorIgual181" />
             </RadioGroup>
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2) Tiempo de permanencia estimado" />
+                android:text="\n 2) Tiempo de permanencia estimado" />
 
             <RadioGroup
                 android:id="@+id/grupo12"
@@ -119,32 +119,32 @@
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/menor_23_h" />
+                    android:text="@string/MenorIgual23h" />
 
                 <RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="24-48 h" />
+                    android:text="24 - 48 h" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2-3 d" />
+                    android:text="2 - 3 días" />
 
                 <RadioButton
                     android:id="@+id/radioButton5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">3 d" />
+                    android:text="@string/MayorIgual4días" />
             </RadioGroup>
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3) Necesidad postoperatoria de UCI (%)" />
+                android:text="\n 3) Necesidad postoperatoria de UCI (%)" />
 
             <RadioGroup
                 android:id="@+id/grupo13"
@@ -161,25 +161,25 @@
                     android:id="@+id/radioButton14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/menor_5" />
+                    android:text="@string/menor_a_5" />
 
                 <RadioButton
                     android:id="@+id/radioButton15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="5-10" />
+                    android:text="5 - 10" />
 
                 <RadioButton
                     android:id="@+id/radioButton16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="11-25" />
+                    android:text="11 - 25" />
 
                 <RadioButton
                     android:id="@+id/radioButton17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">25" />
+                    android:text="> 25" />
 
             </RadioGroup>
 
@@ -187,7 +187,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4) Pérdida de sangre anticipada (cc)" />
+                android:text="\n 4) Pérdida de sangre anticipada (cc)" />
 
             <RadioGroup
                 android:id="@+id/grupo14"
@@ -198,31 +198,31 @@
                     android:id="@+id/radioButton19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/menor_100" />
+                    android:text="@string/menor_a_100" />
 
                 <RadioButton
                     android:id="@+id/radioButton20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="100-250" />
+                    android:text="100 - 250" />
 
                 <RadioButton
                     android:id="@+id/radioButton21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="250-500" />
+                    android:text="250 - 500" />
 
                 <RadioButton
                     android:id="@+id/radioButton22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="500-750" />
+                    android:text="500 - 750" />
 
                 <RadioButton
                     android:id="@+id/radioButton23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">750" />
+                    android:text="> 750" />
 
             </RadioGroup>
 
@@ -230,7 +230,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="5) Tamaño del equipo de cirugía (personas)" />
+                android:text="\n 5) Tamaño del equipo de cirugía (personas)" />
 
             <RadioGroup
                 android:id="@+id/grupo15"
@@ -265,14 +265,14 @@
                     android:id="@+id/radioButton28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">4" />
+                    android:text="> 4" />
             </RadioGroup>
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="6) Probabilidad de intubación (%)" />
+                android:text="\n 6) Probabilidad de intubación (%)" />
 
             <RadioGroup
                 android:id="@+id/grupo16"
@@ -283,38 +283,38 @@
                     android:id="@+id/radioButton29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/menor_1" />
+                    android:text="@string/menor_a_1" />
 
                 <RadioButton
                     android:id="@+id/radioButton30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1-5" />
+                    android:text="1 - 5" />
 
                 <RadioButton
                     android:id="@+id/radioButton31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="6-10" />
+                    android:text="6 - 10" />
 
                 <RadioButton
                     android:id="@+id/radioButton32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="11-25" />
+                    android:text="11 - 25" />
 
                 <RadioButton
                     android:id="@+id/radioButton33"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=">25" />
+                    android:text="> 25" />
             </RadioGroup>
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="7) Localización del procedimiento" />
+                android:text="\n 7) Localización del procedimiento" />
 
             <RadioGroup
                 android:id="@+id/grupo17"
@@ -349,7 +349,7 @@
                     android:id="@+id/radioButton38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Otorrinolaringología, cirugía de cabeza y cuello/Gastrointestinal superior/Torácica" />
+                    android:text="Otorrinolaringología, cirugía de cabeza y cuello/ Gastrointestinal superior/ Torácica" />
             </RadioGroup>
 
         </LinearLayout>
