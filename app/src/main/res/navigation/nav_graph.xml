@@ -28,6 +28,10 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <argument
+            android:name="suma_finalresult"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <activity
         android:id="@+id/infotabs"
@@ -58,6 +62,10 @@
         <action
             android:id="@+id/action_Second2Fragment_to_First2Fragment"
             app:destination="@id/First2Fragment" />
+        <argument
+            android:name="suma_procedimiento"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/First3Fragment"
@@ -70,6 +78,9 @@
         <action
             android:id="@+id/action_First3Fragment_to_Second2Fragment"
             app:destination="@id/Second2Fragment" />
+        <argument android:name="suma_proce_pacient"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/instrucciones"

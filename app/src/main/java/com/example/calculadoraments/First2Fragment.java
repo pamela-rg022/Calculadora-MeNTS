@@ -62,8 +62,11 @@ public class First2Fragment extends Fragment {
                 Toast.makeText(getContext(), "" + sumaProcedimiento, Toast.LENGTH_SHORT).show();
 
 
-                NavHostFragment.findNavController(First2Fragment.this)
-                       .navigate(R.id.action_First2Fragment_to_Second2Fragment);
+//                NavHostFragment.findNavController(First2Fragment.this)
+  //                     .navigate(R.id.action_First2Fragment_to_Second2Fragment);
+                First2FragmentDirections.ActionFirst2FragmentToSecond2Fragment seguir_paciente = First2FragmentDirections.actionFirst2FragmentToSecond2Fragment();
+                seguir_paciente.setSumaProcedimiento(sumaProcedimiento);
+                NavHostFragment.findNavController(First2Fragment.this).navigate(seguir_paciente);
             }
         });
         view.findViewById(R.id.button_volverinstruc).setOnClickListener(new View.OnClickListener() {
@@ -73,5 +76,6 @@ public class First2Fragment extends Fragment {
                         .navigate(R.id.action_First2Fragment_to_instrucciones);
             }
         });
+
     }
 }

@@ -32,7 +32,7 @@ public class PageViewModel extends ViewModel {
                             " ● La calculadora se basa en medidas objetivas y probabilidades clínicas percibidas que traducidas en la escala generada y acumulando los diferentes resultados se obtiene un puntaje acumulado MeNTS que permite apoyar la toma de decisiones." +
                             "\n" +
                             "\n" +
-                            " ● El puntaje acumulativo MeNTS puede variar entre 21 y 105, donde un valor mas alto implica un procedimiento menos justificado y con uno más bajo se puede tener una mayor consideración para realizar el procedimiento." ;
+                            " ● El puntaje acumulativo MeNTS puede variar entre 21 y 105, donde un valor más alto implica un procedimiento menos justificado y con uno más bajo se puede tener una mayor consideración para realizar el procedimiento." ;
             }
             return null;
             //return "Hello world from section: " + input;
