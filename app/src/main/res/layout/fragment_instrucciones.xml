@@ -19,7 +19,7 @@
         android:layout_height="438dp"
         android:layout_gravity="center|center_horizontal"
         android:justificationMode="inter_word"
-        android:text="A continuación se presentarán una serie de tres cuestionarios que abarcan los tres grandes factores: procedimiento, paciente y enfermedad. Fíjese de responder todos los aspectos que se estipulan y de escoger sólo una respuesta para cada uno de los aspectos en los diferentes cuestionarios. Procure realizar los cuestionarios de manera ordenada, ya que si se devuelve entre cuestionarios tendrá que llenarlos de nuevo para que se realice el cálculo de forma óptima."
+        android:text="A continuación se presentarán una serie de cuestionarios que abarcan los tres grandes factores: procedimiento, paciente y enfermedad. Tenga en cuenta que debe responder todos los aspectos que se estipulan y sólo escoger una respuesta para cada uno de los aspectos en los diferentes cuestionarios. Procure realizar los cuestionarios de manera ordenada, ya que si se devuelve entre cuestionarios tendrá que llenarlos de nuevo para que se realice el cálculo de forma óptima."
         android:textSize="18sp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -41,10 +41,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Instrucciones"
+        android:text="                             Instrucciones"
         android:textSize="30sp"
         android:textStyle="bold" />
 

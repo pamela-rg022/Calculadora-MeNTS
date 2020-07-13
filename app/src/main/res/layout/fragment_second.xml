@@ -18,10 +18,10 @@
 
     <TextView
         android:id="@+id/textview_second"
-        android:layout_width="256dp"
-        android:layout_height="39dp"
+        android:layout_width="247dp"
+        android:layout_height="63dp"
         android:gravity="center_horizontal"
-        android:text="El valor calculado es:"
+        android:text="El puntaje MeNTS acumulado es:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
