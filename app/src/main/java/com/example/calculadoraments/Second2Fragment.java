@@ -62,16 +62,21 @@ public class Second2Fragment extends Fragment {
                 int suma_previa_proce = Second2FragmentArgs.fromBundle(getArguments()).getSumaProcedimiento();
 
                 sumaPaciente = selected_id_grupo21 + selected_id_grupo22 + selected_id_grupo23 + selected_id_grupo24 + selected_id_grupo25 + selected_id_grupo26 + selected_id_grupo27 + selected_id_grupo28 + 8;
-                sumaProcePaci = suma_previa_proce + sumaPaciente;
 
-               // Toast.makeText(getContext(), "" + sumaPaciente, Toast.LENGTH_SHORT).show();
+                if (selected_id_grupo21 == -1 ||  selected_id_grupo22 == -1 || selected_id_grupo23 ==-1 || selected_id_grupo24 == -1 || selected_id_grupo25 ==-1 || selected_id_grupo26 == -1 || selected_id_grupo27 == -1 || selected_id_grupo28 == -1){
+                    Toast.makeText(getContext(), "Hay preguntas sin responder" , Toast.LENGTH_SHORT).show();
+                }else {
+
+                    sumaProcePaci = suma_previa_proce + sumaPaciente;
+
+                    // Toast.makeText(getContext(), "" + sumaPaciente, Toast.LENGTH_SHORT).show();
 
 
-                Second2FragmentDirections.ActionSecond2FragmentToFirst3Fragment seguir_enfermedad = Second2FragmentDirections.actionSecond2FragmentToFirst3Fragment();
-                seguir_enfermedad.setSumaProcePacient(sumaProcePaci);
-                NavHostFragment.findNavController(Second2Fragment.this).navigate(seguir_enfermedad);
+                    Second2FragmentDirections.ActionSecond2FragmentToFirst3Fragment seguir_enfermedad = Second2FragmentDirections.actionSecond2FragmentToFirst3Fragment();
+                    seguir_enfermedad.setSumaProcePacient(sumaProcePaci);
+                    NavHostFragment.findNavController(Second2Fragment.this).navigate(seguir_enfermedad);
 
-
+                }
 //                NavHostFragment.findNavController(Second2Fragment.this)
   //                      .navigate(R.id.action_Second2Fragment_to_First3Fragment);
 

@@ -57,13 +57,19 @@ public class First3Fragment extends Fragment {
                 int suma_previa_proce_paci = First3FragmentArgs.fromBundle(getArguments()).getSumaProcePacient();
 
                 sumaEnfermedad = selected_id_grupo21 + selected_id_grupo22 + selected_id_grupo23 + selected_id_grupo24 + selected_id_grupo25 + selected_id_grupo26 + 6;
-                sumaTotal = suma_previa_proce_paci + sumaEnfermedad;
 
-               // Toast.makeText(getContext(), "" + sumaEnfermedad, Toast.LENGTH_SHORT).show();
+                if (selected_id_grupo21 == -1 ||  selected_id_grupo22 == -1 || selected_id_grupo23 ==-1 || selected_id_grupo24 == -1 || selected_id_grupo25 ==-1 || selected_id_grupo26 == -1){
+                    Toast.makeText(getContext(), "Hay preguntas sin responder" , Toast.LENGTH_SHORT).show();
+                }else {
+                    sumaTotal = suma_previa_proce_paci + sumaEnfermedad;
 
-                First3FragmentDirections.ActionFirst3FragmentToSecondFragment seguir_finalresult = First3FragmentDirections.actionFirst3FragmentToSecondFragment();
-                seguir_finalresult.setSumaFinalresult(sumaTotal);
-                NavHostFragment.findNavController(First3Fragment.this).navigate(seguir_finalresult);
+
+                    // Toast.makeText(getContext(), "" + sumaEnfermedad, Toast.LENGTH_SHORT).show();
+
+                    First3FragmentDirections.ActionFirst3FragmentToSecondFragment seguir_finalresult = First3FragmentDirections.actionFirst3FragmentToSecondFragment();
+                    seguir_finalresult.setSumaFinalresult(sumaTotal);
+                    NavHostFragment.findNavController(First3Fragment.this).navigate(seguir_finalresult);
+                }
 
        //         NavHostFragment.findNavController(First3Fragment.this)
          //               .navigate(R.id.action_First3Fragment_to_SecondFragment);

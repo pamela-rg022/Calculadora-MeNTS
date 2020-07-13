@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -58,14 +59,19 @@ public class First2Fragment extends Fragment {
 
                 sumaProcedimiento = selected_id_grupo11 + selected_id_grupo12 + selected_id_grupo13 + selected_id_grupo14 + selected_id_grupo15 + selected_id_grupo16 + selected_id_grupo17 + 7;
 
-           //     Toast.makeText(getContext(), "" + sumaProcedimiento, Toast.LENGTH_SHORT).show();
+                if (selected_id_grupo11 == -1 ||  selected_id_grupo12 == -1 || selected_id_grupo13 ==-1 || selected_id_grupo14 == -1 || selected_id_grupo15 ==-1 || selected_id_grupo16 == -1 || selected_id_grupo17 == -1 ){
+                    Toast.makeText(getContext(), "Hay preguntas sin responder" , Toast.LENGTH_SHORT).show();
+                }else {
+
+                    //     Toast.makeText(getContext(), "" + sumaProcedimiento, Toast.LENGTH_SHORT).show();
 
 
 //                NavHostFragment.findNavController(First2Fragment.this)
-  //                     .navigate(R.id.action_First2Fragment_to_Second2Fragment);
-                First2FragmentDirections.ActionFirst2FragmentToSecond2Fragment seguir_paciente = First2FragmentDirections.actionFirst2FragmentToSecond2Fragment();
-                seguir_paciente.setSumaProcedimiento(sumaProcedimiento);
-                NavHostFragment.findNavController(First2Fragment.this).navigate(seguir_paciente);
+                    //                     .navigate(R.id.action_First2Fragment_to_Second2Fragment);
+                    First2FragmentDirections.ActionFirst2FragmentToSecond2Fragment seguir_paciente = First2FragmentDirections.actionFirst2FragmentToSecond2Fragment();
+                    seguir_paciente.setSumaProcedimiento(sumaProcedimiento);
+                    NavHostFragment.findNavController(First2Fragment.this).navigate(seguir_paciente);
+                }
             }
         });
         view.findViewById(R.id.volverinstruc).setOnClickListener(new View.OnClickListener() {
