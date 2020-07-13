@@ -14,6 +14,13 @@
         android:layout_gravity="center|center_horizontal"
         android:src="@drawable/fondo3" />
 
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="950dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/fondotexto2" />
+
     <TextView
         android:layout_width="364dp"
         android:layout_height="438dp"
@@ -45,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="                             Instrucciones"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold" />
 
